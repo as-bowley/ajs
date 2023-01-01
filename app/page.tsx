@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import Link from "next/link";
 import Image from "next/image";
 import heroimg from "../public/static/images/heroimg.jpeg";
 
@@ -17,8 +18,8 @@ export default function HomePage() {
           the check engine light is on; AJS Auto Electrical can help!
         </p>
         <div>
-          <button className="px-3 py-2 m-2 ml-0 cursor-pointer text-white bg-blue-500 rounded font-bold text-2xl">
-            See Services
+          <button className="px-3 py-2 m-2 ml-0 cursor-pointer text-white bg-blue-500 rounded font-bold text-xl">
+            <Link href={"/services"}>See Services</Link>
           </button>
         </div>
       </div>
