@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section>
+    <section className="p-2">
       <div className="max-w-prose">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500 mb-4">
           Services

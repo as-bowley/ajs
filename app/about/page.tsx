@@ -3,10 +3,10 @@ import aboutimg from "../../public/static/images/aboutimg.png";
 
 export default function Page() {
   return (
-    <section className="grid grid-cols-2 justify-between items-middle z-20 box-border gap-2">
+    <section className="grid grid-cols-2 justify-between items-middle z-20 box-border gap-2 p-2">
       <div className="flex flex-col max-w-prose">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500">About</h1>
-        <p className="my-5 text-lg font-light pr-4">
+        <p className="my-5 text-lg font-light mr-4">
           Hello, my name is Jim and I am an Auto electrician with over 4 years
           of experience in the field. I specialize in diagnosing and repairing
           electrical issues in vehicles, including issues with the starting and

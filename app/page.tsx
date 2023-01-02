@@ -23,7 +23,7 @@ export default function HomePage() {
           </button>
         </div>
       </div>
-      <div className="p-4">
+      <div className="hidden p-4 lg:block">
         <Image src={heroimg} alt="" className="w-auto h-max rounded"></Image>
       </div>
     </section>

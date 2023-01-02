@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section className="flex flex-1 items-middle box-border">
+    <section className="flex flex-1 items-middle box-border p-2">
       <div className="w-full max-w-xl">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500">
           Contact
@@ -54,11 +54,11 @@ export default function Page() {
             </label>
             <textarea
               name="message"
-              className=" no-resize appearance-none block w-full text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
+              className=" no-resize appearance-none block w-full text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 h-36 resize-none"
             ></textarea>
           </p>
           <p className="w-full">
-            <button className="shadow bg-blue-500 hover:bg-blue-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+            <button className="shadow bg-blue-500 hover:bg-blue-600 focus:border-2 focus:border-blue-300 focus:outline-none text-white font-bold py-2 px-4 rounded">
               Submit
             </button>
           </p>

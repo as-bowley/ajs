@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Navbar from "./components/Navbar";
+import ProtoNav from "./components/ProtoNav";
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -20,7 +21,8 @@ export default function RootLayout({
    border-b-[100vh] border-b-amber-200
    "
         ></div>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
+        <ProtoNav></ProtoNav>
         <main>{children}</main>
       </body>
     </html>
