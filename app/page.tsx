@@ -18,7 +18,7 @@ export default function HomePage() {
           the check engine light is on; AJS Auto Electrical can help!
         </p>
         <div>
-          <button className="px-3 py-2 m-2 ml-0 cursor-pointer text-white bg-blue-500 rounded font-bold text-xl">
+          <button className="px-3 py-2 m-2 ml-0 cursor-pointer text-white bg-blue-500 rounded font-bold text-xl  hover:bg-blue-600">
             <Link href={"/services"}>See Services</Link>
           </button>
         </div>
