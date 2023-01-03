@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section className="flex flex-1 flex-col lg:flex-row items-middle box-border p-2">
+    <section className="flex flex-1 flex-col my-10 lg:my-0 lg:flex-row items-middle box-border p-2">
       <div className="w-full max-w-xl">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500">
           Contact

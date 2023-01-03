@@ -1,7 +1,7 @@
 export default function Page() {
   return (
-    <section className="p-2">
-      <div className="max-w-prose">
+    <section className="p-2 my-10">
+      <div className="max-w-prose lg:bg-white/20 rounded">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500 mb-4">
           Services
         </h1>
