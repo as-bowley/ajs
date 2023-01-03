@@ -5,7 +5,7 @@ import heroimg from "../public/static/images/heroimg.jpeg";
 
 export default function HomePage() {
   return (
-    <section className="flex flex-1 justify-between items-middle z-20 box-border my-10">
+    <section className="flex flex-1 justify-between items-middle z-20 box-border h-full lg:h-auto lg:my-10">
       <div className="flex flex-col max-w-lg p-4">
         <h1 className="text-5xl font-bold mb-5">
           Your Leicester Based Auto Electrician

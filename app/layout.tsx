@@ -1,10 +1,7 @@
 import "../styles/globals.css";
 import Navbar from "./components/Navbar";
-import ProtoNav from "./components/ProtoNav";
 
 export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
   children,
 }: {
   children: React.ReactNode;
@@ -13,17 +10,18 @@ export default function RootLayout({
     <html lang="en">
       <body
         className="flex flex-col h-screen 
-     mx-[8%] box-border"
+     lg:mx-[8%] box-border"
       >
         <div
           className="-z-10 absolute overflow-hidden right-0 w-0 max-h-full 
-   border-l-[100vh] border-l-transparent
-   border-b-[100vh] border-b-amber-200
+   border-l-[50vh] border-l-transparent
+   border-b-[100vh] border-b-amber-200 lg:border-l-[100vh]
    "
         ></div>
-        {/* <Navbar></Navbar> */}
-        <ProtoNav></ProtoNav>
-        <main>{children}</main>
+        <Navbar></Navbar>
+        <main className="overflow-scroll h-screen mx-0 px-[8%] bg-slate-50/40 lg:bg-transparent">
+          {children}
+        </main>
       </body>
     </html>
   );

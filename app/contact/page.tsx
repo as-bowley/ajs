@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <section className="flex flex-1 items-middle box-border p-2">
+    <section className="flex flex-1 flex-col lg:flex-row items-middle box-border p-2">
       <div className="w-full max-w-xl">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500">
           Contact
@@ -64,7 +64,7 @@ export default function Page() {
           </p>
         </form>
       </div>
-      <div className="w-full h-min  bg-slate-200 rounded bg-opacity-30 p-10 m-10 font-light">
+      <div className="w-full h-min  bg-slate-100 rounded bg-opacity-30 p-5 mb-5 lg:p-10 lg:m-10 font-light">
         <h2 className="text-bold text-2xl">
           I can also be reached at 07928182031 by phone or WhatsApp.
         </h2>

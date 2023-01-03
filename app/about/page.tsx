@@ -3,7 +3,7 @@ import aboutimg from "../../public/static/images/aboutimg.png";
 
 export default function Page() {
   return (
-    <section className="grid grid-cols-2 justify-between items-middle z-20 box-border gap-2 p-2">
+    <section className="grid lg:grid-cols-2 justify-between items-middle z-20 box-border gap-2 p-2">
       <div className="flex flex-col max-w-prose">
         <h1 className="text-3xl font-bold border-b-2 border-blue-500">About</h1>
         <p className="my-5 text-lg font-light mr-4">
