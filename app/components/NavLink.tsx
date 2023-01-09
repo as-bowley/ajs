@@ -15,7 +15,7 @@ export default function NavLink({ href, name, setIsOpen }: Props) {
     <Link
       href={href}
       onClick={setIsOpen}
-      className={`block py-2 pl-3 pr-4 text-lg font-light text-white rounded lg:bg-transparent lg:p-0 lg:items-center lg:justify-center ${
+      className={`block py-2 pl-3 pr-4 text-lg font-light text-white rounded lg:bg-transparent lg:p-0 lg:items-center lg:justify-center hover:lg:border-b-2 hover:lg:border-b-blue-500 hover:lg:rounded-none ${
         ariaCurrent === "page"
           ? "bg-blue-500  lg:border-b-2 lg:border-b-blue-500 lg:text-black lg:rounded-none "
           : "text-black"
