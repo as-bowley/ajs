@@ -11,26 +11,11 @@ export default function Page() {
           your vehicle. These services include:
         </p>
         <ul className="list-disc pl-3 text-lg font-light">
-          <li>
-            Starting and charging system repairs: If your vehicle is having
-            trouble starting or maintaining a charge, I can diagnose and repair
-            the issue, whether it be a faulty battery, alternator, or starter.
-          </li>
-          <li>
-            Lighting and wiring repairs: If you are experiencing issues with
-            your vehicle{`'`}s lighting or wiring, I can assess and repair the
-            problem, ensuring your vehicle is safe and functioning properly.
-          </li>
-          <li>
-            Electronic component repairs: From computer and sensor issues to
-            dashboard lights and cruise control, I can troubleshoot and repair
-            any electronic issues you may be experiencing.
-          </li>
-          <li>
-            Pre-purchase inspections: If you are considering purchasing a used
-            vehicle, I can provide a thorough inspection of the vehicle{`'`}s
-            electrical system to ensure it is in good working order.
-          </li>
+          <li>DVS systems to FORS bronze, silver or gold standard.</li>
+          <li>Visual warning systems e.g. beacons, strobes and worklights.</li>
+          <li>Convenience systems e.g. inverters and split chargers.</li>
+          <li>Diagnostics and fault finding.</li>
+          <li>Dashcam installations.</li>
         </ul>
       </div>
     </section>

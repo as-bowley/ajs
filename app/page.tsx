@@ -12,11 +12,11 @@ export default function HomePage() {
           Your Leicester Based Auto Electrician
         </h1>
         <p className="my-5 text-xl font-light">
-          We offer Installations, Fault Finding & Repairs, Diagnostics and more!
+          We offer Installations, Fault Finding & Repairs!
           <br></br>
           <br></br>
-          So, whether you need a new Dashcam installing or you need to know why
-          the check engine light is on; AJS Auto Electrical can help!
+          Whether you need cameras fitting on your HGV fleet or a dashcam on
+          your day to day car, I can help!
         </p>
         <div className="flex">
           <button className="px-3 py-2 m-2 ml-0 cursor-pointer text-white bg-blue-500 rounded font-bold text-xl  hover:bg-blue-600">
