@@ -66,7 +66,11 @@ export default function Page() {
       </div>
       <div className="w-full h-min  bg-slate-100 rounded bg-opacity-30 p-5 mb-5 lg:p-10 lg:m-10 font-light">
         <h2 className="text-bold text-2xl">
-          I can also be reached at 07928182031 by phone or WhatsApp.
+          I can also be reached at{" "}
+          <a href="tel:07986965153" className="text-blue-500">
+            07986965153
+          </a>{" "}
+          by phone or WhatsApp.
         </h2>
       </div>
     </section>

@@ -77,7 +77,10 @@ export default function Navbar() {
               ></NavLink>
             </li>
             <li className="group  w-auto px-3 py-2 mt-2 lg:m-2 mr-0 cursor-pointer text-white bg-blue-500 rounded hover:bg-blue-600">
-              <a className="flex items-center justify-center py-2 pl-3 pr-4  text-lg font-bold rounded lg:hover:bg-transparent lg:border-0  lg:p-0">
+              <a
+                href="tel:07986965153"
+                className="flex items-center justify-center py-2 pl-3 pr-4  text-lg font-bold rounded lg:hover:bg-transparent lg:border-0  lg:p-0"
+              >
                 <Image
                   src={phoneicon}
                   alt=""

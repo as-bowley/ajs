@@ -28,7 +28,7 @@ export default function HomePage() {
               alt=""
               className="mr-2 group-hover:animate-wiggle"
             ></Image>
-            <Link href={"/services"}>Call now</Link>
+            <a href="tel:07986965153">Call Now</a>
           </button>
         </div>
       </div>
