@@ -6,13 +6,12 @@ export default function ContactForm() {
   const [hasFormBeenSent, setHasFormBeenSent] = useState(false);
   async function handleOnSubmit(e: FormEvent<HTMLFormElement> | any) {
     e.preventDefault();
-    const formData = {};
-    Array.from<HTMLCollectionOf<HTMLElement>>(e.currentTarget.elements).forEach(
-      (field) => {
-        if (!field.name) return;
-        formData[field.name] = field.value;
-      }
-    );
+    const formData: any = {};
+    Array.from(e.currentTarget.elements).forEach((field: any) => {
+      if (!field.name) return;
+      formData[field.name] = field.value;
+    });
+    console.log(Array.from(e.currentTarget.elements));
     fetch("/api/mail", {
       method: "post",
       body: JSON.stringify(formData),
